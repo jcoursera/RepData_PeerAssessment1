@@ -236,6 +236,8 @@ maxinterval.nodate&lt;-strftime(maxinterval, &quot;%H:%M&quot;)
 
 <h2>Imputing missing values</h2>
 
+<p><strong>Description of a strategy for imputing missing data:</strong> I will replace the missing values with the mean of the interval</p>
+
 <pre><code class="r">na &lt;- is.na(activity$steps) 
 sum(na)
 </code></pre>

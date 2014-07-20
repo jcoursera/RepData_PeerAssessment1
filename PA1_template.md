@@ -50,6 +50,7 @@ maxinterval.nodate<-strftime(maxinterval, "%H:%M")
 The maximum number of steps on average across all the days in the dataset is 206.17 and it occurs at 08:35.
     
 ## Imputing missing values
+**Description of a strategy for imputing missing data:** I will replace the missing values with the mean of the interval
 
 ```r
 na <- is.na(activity$steps) 
